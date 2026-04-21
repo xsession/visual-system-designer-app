@@ -1,3 +1,5 @@
 workspace
 build
 *.egg-info
+
+vsd/__pycache__/
