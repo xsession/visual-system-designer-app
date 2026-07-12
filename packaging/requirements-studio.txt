@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+python-multipart>=0.0.9
+platformdirs>=4.2
+numpy>=1.24
+pyelftools>=0.31
+capstone>=5.0
+psutil>=5.9

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Visual System Designer Local Studio</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">VSD</div>
+      <div><strong>Local Studio</strong><small>Embedded design · emulation · reverse engineering</small></div>
+    </div>
+    <div class="status-strip">
+      <span id="localMode" class="pill ok">LOCAL</span>
+      <span id="catalogCount" class="pill">catalog …</span>
+      <span id="dataPath" class="muted"></span>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Workspace">
+    <button class="tab active" data-tab="designer">Designer</button>
+    <button class="tab" data-tab="monitor">Monitor</button>
+    <button class="tab" data-tab="firmware">Firmware RE</button>
+    <button class="tab" data-tab="emulation">Emulation</button>
+    <button class="tab" data-tab="logs">Logs</button>
+    <button class="tab" data-tab="settings">Settings</button>
+  </nav>
+
+  <main>
+    <section id="designer" class="panel-view active">
+      <aside class="sidebar components-panel">
+        <h2>Components</h2>
+        <input id="componentSearch" placeholder="Search model, vendor or ID">
+        <div class="filter-row">
+          <select id="componentKind"><option value="">All kinds</option><option>display</option><option>sensor</option><option>actuator</option></select>
+          <select id="componentBus"><option value="">All buses</option><option>i2c</option><option>spi</option><option>uart</option><option>gpio</option><option>pwm</option><option>analog</option></select>
+        </div>
+        <div id="componentList" class="component-list"></div>
+      </aside>
+
+      <section class="designer-main">
+        <div class="toolbar">
+          <button id="newProject">New</button>
+          <button id="saveProject" class="primary">Save</button>
+          <button id="connectNodes">Connect</button>
+          <button id="deleteNode">Delete</button>
+          <button id="fitCanvas">Fit</button>
+          <span id="designerHint" class="muted">Drag components from the catalog.</span>
+        </div>
+        <div id="designSurface" class="design-surface" tabindex="0">
+          <svg id="connectionLayer" class="connection-layer"></svg>
+          <div id="nodeLayer" class="node-layer"></div>
+          <div class="canvas-watermark">LOCAL SYSTEM GRAPH</div>
+        </div>
+      </section>
+
+      <aside class="sidebar inspector-panel">
+        <h2>Project</h2>
+        <label>Name<input id="projectName" value="Untitled system"></label>
+        <label>Saved projects<select id="projectSelect"><option value="">Select…</option></select></label>
+        <button id="loadProject">Load</button>
+        <hr>
+        <h3>Selected node</h3>
+        <div id="nodeInspector" class="empty-state">Select a node.</div>
+        <hr>
+        <h3>Graph summary</h3>
+        <pre id="graphSummary"></pre>
+      </aside>
+    </section>
+
+    <section id="monitor" class="panel-view stack-view">
+      <div class="control-grid">
+        <label>Session<select id="monitorSession"></select></label>
+        <label>Plot<select id="plotMode"><option value="time">Time plot</option><option value="scope">Scope</option><option value="bar">Bar plot</option><option value="histogram">Histogram</option><option value="spectrum">Spectrum</option><option value="logic">Logic analyzer</option></select></label>
+        <label>Channels<input id="monitorChannels" placeholder="temperature,gpio.4"></label>
+        <label>Window (s)<input id="monitorWindow" type="number" value="30" min="0.1" step="0.1"></label>
+        <label class="wide">Live expression<input id="filterExpression" placeholder='value > 0 and channel != "noise"'></label>
+        <label class="wide">Filter pipeline JSON<input id="filterPipeline" value='[]' placeholder='[{"op":"moving_average","window":8}]'></label>
+        <button id="refreshPlot" class="primary">Refresh</button>
+        <button id="pausePlot">Pause</button>
+      </div>
+      <div class="plot-card">
+        <canvas id="plotCanvas"></canvas>
+        <div id="plotLegend" class="plot-legend"></div>
+      </div>
+      <div id="plotStats" class="stats-grid"></div>
+      <details>
+        <summary>Telemetry injection / test fixture</summary>
+        <div class="control-grid">
+          <label>Channel<input id="injectChannel" value="signal"></label>
+          <label>Value<input id="injectValue" type="number" value="1" step="0.1"></label>
+          <label>Kind<select id="injectKind"><option>analog</option><option>logic</option></select></label>
+          <button id="injectPoint">Inject point</button>
+        </div>
+      </details>
+    </section>
+
+    <section id="firmware" class="panel-view split-view">
+      <div class="card">
+        <h2>Local firmware analysis</h2>
+        <p class="muted">ELF, Intel HEX, UF2 and raw binaries stay in the local content-addressed store.</p>
+        <label>Upload firmware<input id="firmwareUpload" type="file"></label>
+        <button id="uploadFirmware">Store locally</button>
+        <label>Firmware asset<select id="firmwareAsset"></select></label>
+        <label>Architecture<input id="firmwareArch" placeholder="cortex_m4, arm, riscv32, x86_64 …"></label>
+        <button id="analyzeFirmware" class="primary">Analyze</button>
+        <div id="firmwareProgress" class="muted"></div>
+      </div>
+      <div class="card report-card">
+        <div class="report-tabs">
+          <button data-report="summary" class="active">Summary</button>
+          <button data-report="sections">Sections</button>
+          <button data-report="symbols">Symbols</button>
+          <button data-report="strings">Strings</button>
+          <button data-report="disassembly">Disassembly</button>
+          <button data-report="hexdump">Hex</button>
+        </div>
+        <div id="firmwareReport" class="report-output empty-state">Upload and analyze a firmware image.</div>
+      </div>
+    </section>
+
+    <section id="emulation" class="panel-view stack-view">
+      <div id="toolchainCards" class="stats-grid"></div>
+      <div class="card">
+        <h2>Start bare-metal session</h2>
+        <div class="control-grid">
+          <label>Engine<select id="sessionTarget"><option value="renode">Renode</option><option value="openocd">OpenOCD</option><option value="native">Native executable</option></select></label>
+          <label>Firmware<select id="sessionFirmware"></select></label>
+          <label>Platform .repl<select id="sessionPlatform"></select></label>
+          <label>Script .resc/.cfg<select id="sessionScript"></select></label>
+          <label class="wide">Extra arguments<input id="sessionArgs" placeholder="--plain --port 3333"></label>
+          <button id="startSession" class="primary">Start</button>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Sessions</h2>
+        <table><thead><tr><th>Status</th><th>Target</th><th>Started</th><th>Command</th><th></th></tr></thead><tbody id="sessionRows"></tbody></table>
+      </div>
+    </section>
+
+    <section id="logs" class="panel-view stack-view">
+      <div class="control-grid">
+        <label>Session<select id="logSession"><option value="">All</option></select></label>
+        <label>Level<select id="logLevel"><option value="">All</option><option>DEBUG</option><option>INFO</option><option>WARNING</option><option>ERROR</option></select></label>
+        <label>Source<input id="logSource" placeholder="stdout, stderr, emulation"></label>
+        <label class="wide">Contains<input id="logSearch" placeholder="regex-like text search"></label>
+        <button id="refreshLogs" class="primary">Refresh</button>
+        <button id="exportLogs">Export CSV</button>
+      </div>
+      <div id="logOutput" class="log-output"></div>
+    </section>
+
+    <section id="settings" class="panel-view split-view">
+      <div class="card">
+        <h2>Local-only storage</h2>
+        <div id="healthDetails"></div>
+        <label>Bearer token for remote mode<input id="apiToken" type="password" placeholder="Not needed on localhost"></label>
+        <button id="saveToken">Save in this browser</button>
+      </div>
+      <div class="card">
+        <h2>Runtime principles</h2>
+        <ul>
+          <li>No CDN, cloud database, analytics or external asset requests.</li>
+          <li>Assets are deduplicated by SHA-256 and referenced from SQLite.</li>
+          <li>Remote binding is token-protected; localhost is the default.</li>
+          <li>Firmware analysis and plots run locally.</li>
+        </ul>
+        <p><a href="/api/docs" target="_blank" rel="noreferrer">Open local API documentation</a></p>
+        <p><button id="downloadComponentModels">Download bundled Renode component models</button></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

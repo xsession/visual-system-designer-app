@@ -1,0 +1,74 @@
+name: Local Studio Release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "local-studio-v*"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r packaging/requirements-studio.txt pytest httpx pytest-asyncio
+      - run: pip install --no-deps -e .
+      - run: pytest -q tests/local
+
+  desktop:
+    needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            artifact: vsd-local-studio-linux-x86_64
+          - os: windows-latest
+            artifact: vsd-local-studio-windows-x86_64
+          - os: macos-13
+            artifact: vsd-local-studio-macos-x86_64
+          - os: macos-14
+            artifact: vsd-local-studio-macos-arm64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r packaging/requirements-studio.txt pyinstaller
+      - run: pip install --no-deps -e .
+      - run: python packaging/build_desktop.py --clean
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            dist/vsd-local-studio
+            dist/vsd-local-studio.exe
+          if-no-files-found: error
+
+  container:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-qemu-action@v3
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          platforms: linux/amd64,linux/arm64
+          tags: visual-system-designer-local:${{ github.ref_name }}
+          outputs: type=oci,dest=/tmp/vsd-local-studio.oci.tar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vsd-local-studio-container
+          path: /tmp/vsd-local-studio.oci.tar

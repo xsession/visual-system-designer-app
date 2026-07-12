@@ -1,0 +1,501 @@
+kind,rank,id,model,vendor,tier,bus,class
+display,1,ssd1306,SSD1306,Solomon Systech,driver_compatible,i2c,ExternalComponents.Generated.Display_SSD1306
+display,2,ssd1309,SSD1309,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1309
+display,3,ssd1315,SSD1315,Solomon Systech,profiled_behavioral,i2c,ExternalComponents.Generated.Display_SSD1315
+display,4,ssd1316,SSD1316,Solomon Systech,profiled_behavioral,i2c,ExternalComponents.Generated.Display_SSD1316
+display,5,ssd1322,SSD1322,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1322
+display,6,ssd1325,SSD1325,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1325
+display,7,ssd1327,SSD1327,Solomon Systech,profiled_behavioral,i2c,ExternalComponents.Generated.Display_SSD1327
+display,8,ssd1329,SSD1329,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1329
+display,9,ssd1331,SSD1331,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1331
+display,10,ssd1351,SSD1351,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1351
+display,11,sh1106,SH1106,Sino Wealth,driver_compatible,i2c,ExternalComponents.Generated.Display_SH1106
+display,12,sh1107,SH1107,Sino Wealth,profiled_behavioral,i2c,ExternalComponents.Generated.Display_SH1107
+display,13,sh1108,SH1108,Sino Wealth,profiled_behavioral,spi,ExternalComponents.Generated.Display_SH1108
+display,14,sh1122,SH1122,Sino Wealth,profiled_behavioral,spi,ExternalComponents.Generated.Display_SH1122
+display,15,ch1115,CH1115,Jinghong,profiled_behavioral,i2c,ExternalComponents.Generated.Display_CH1115
+display,16,uc1609,UC1609,UltraChip,profiled_behavioral,spi,ExternalComponents.Generated.Display_UC1609
+display,17,uc1701,UC1701,UltraChip,profiled_behavioral,spi,ExternalComponents.Generated.Display_UC1701
+display,18,st7565,ST7565,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST7565
+display,19,st7567,ST7567,Sitronix,profiled_behavioral,i2c,ExternalComponents.Generated.Display_ST7567
+display,20,st7586,ST7586,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST7586
+display,21,pcd8544,PCD8544,NXP,profiled_behavioral,spi,ExternalComponents.Generated.Display_PCD8544
+display,22,ks0108,KS0108,Samsung,profiled_behavioral,parallel,ExternalComponents.Generated.Display_KS0108
+display,23,t6963c,T6963C,Toshiba,profiled_behavioral,parallel,ExternalComponents.Generated.Display_T6963C
+display,24,ra6963,RA6963,RAiO,profiled_behavioral,parallel,ExternalComponents.Generated.Display_RA6963
+display,25,sed1335,SED1335,Epson,profiled_behavioral,parallel,ExternalComponents.Generated.Display_SED1335
+display,26,s1d13700,S1D13700,Epson,profiled_behavioral,parallel,ExternalComponents.Generated.Display_S1D13700
+display,27,ls013b7dh03,LS013B7DH03,Sharp,profiled_behavioral,spi,ExternalComponents.Generated.Display_LS013B7DH03
+display,28,ls027b7dh01,LS027B7DH01,Sharp,profiled_behavioral,spi,ExternalComponents.Generated.Display_LS027B7DH01
+display,29,ls032b7dd02,LS032B7DD02,Sharp,profiled_behavioral,spi,ExternalComponents.Generated.Display_LS032B7DD02
+display,30,il3820,IL3820,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_IL3820
+display,31,il0373,IL0373,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_IL0373
+display,32,il0398,IL0398,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_IL0398
+display,33,ssd1608,SSD1608,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1608
+display,34,ssd1675,SSD1675,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1675
+display,35,ssd1680,SSD1680,Solomon Systech,driver_compatible,spi,ExternalComponents.Generated.Display_SSD1680
+display,36,ssd1681,SSD1681,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1681
+display,37,ssd1683,SSD1683,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1683
+display,38,ssd1687,SSD1687,Solomon Systech,profiled_behavioral,spi,ExternalComponents.Generated.Display_SSD1687
+display,39,uc8151,UC8151,UltraChip,driver_compatible,spi,ExternalComponents.Generated.Display_UC8151
+display,40,uc8159,UC8159,UltraChip,profiled_behavioral,spi,ExternalComponents.Generated.Display_UC8159
+display,41,uc8176,UC8176,UltraChip,profiled_behavioral,spi,ExternalComponents.Generated.Display_UC8176
+display,42,uc8179,UC8179,UltraChip,profiled_behavioral,spi,ExternalComponents.Generated.Display_UC8179
+display,43,jd79653,JD79653,Jadard,profiled_behavioral,spi,ExternalComponents.Generated.Display_JD79653
+display,44,gd7965,GD7965,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GD7965
+display,45,gdeh0154d67,GDEH0154D67,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEH0154D67
+display,46,gdeh0213b72,GDEH0213B72,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEH0213B72
+display,47,gdew027w3,GDEW027W3,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEW027W3
+display,48,gdew029t5,GDEW029T5,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEW029T5
+display,49,gdew042t2,GDEW042T2,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEW042T2
+display,50,gdew075t7,GDEW075T7,Good Display,profiled_behavioral,spi,ExternalComponents.Generated.Display_GDEW075T7
+display,51,st7735,ST7735,Sitronix,driver_compatible,spi,ExternalComponents.Generated.Display_ST7735
+display,52,st7735s,ST7735S,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST7735S
+display,53,st7789,ST7789,Sitronix,driver_compatible,spi,ExternalComponents.Generated.Display_ST7789
+display,54,st7789v,ST7789V,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST7789V
+display,55,st7796s,ST7796S,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST7796S
+display,56,st77903,ST77903,Sitronix,profiled_behavioral,spi,ExternalComponents.Generated.Display_ST77903
+display,57,ili9163,ILI9163,Ilitek,profiled_behavioral,spi,ExternalComponents.Generated.Display_ILI9163
+display,58,ili9225,ILI9225,Ilitek,profiled_behavioral,spi,ExternalComponents.Generated.Display_ILI9225
+display,59,ili9325,ILI9325,Ilitek,profiled_behavioral,parallel,ExternalComponents.Generated.Display_ILI9325
+display,60,ili9340,ILI9340,Ilitek,profiled_behavioral,spi,ExternalComponents.Generated.Display_ILI9340
+display,61,ili9341,ILI9341,Ilitek,driver_compatible,spi,ExternalComponents.Generated.Display_ILI9341
+display,62,ili9481,ILI9481,Ilitek,profiled_behavioral,parallel,ExternalComponents.Generated.Display_ILI9481
+display,63,ili9486,ILI9486,Ilitek,profiled_behavioral,spi,ExternalComponents.Generated.Display_ILI9486
+display,64,ili9488,ILI9488,Ilitek,driver_compatible,spi,ExternalComponents.Generated.Display_ILI9488
+display,65,hx8347d,HX8347D,Himax,profiled_behavioral,parallel,ExternalComponents.Generated.Display_HX8347D
+display,66,hx8352,HX8352,Himax,profiled_behavioral,parallel,ExternalComponents.Generated.Display_HX8352
+display,67,hx8357d,HX8357D,Himax,profiled_behavioral,spi,ExternalComponents.Generated.Display_HX8357D
+display,68,gc9a01,GC9A01,GalaxyCore,driver_compatible,spi,ExternalComponents.Generated.Display_GC9A01
+display,69,gc9106,GC9106,GalaxyCore,profiled_behavioral,spi,ExternalComponents.Generated.Display_GC9106
+display,70,gc9307,GC9307,GalaxyCore,profiled_behavioral,spi,ExternalComponents.Generated.Display_GC9307
+display,71,gc9503,GC9503,GalaxyCore,profiled_behavioral,parallel,ExternalComponents.Generated.Display_GC9503
+display,72,rm67162,RM67162,Raydium,profiled_behavioral,spi,ExternalComponents.Generated.Display_RM67162
+display,73,rm690b0,RM690B0,Raydium,profiled_behavioral,qspi,ExternalComponents.Generated.Display_RM690B0
+display,74,nv3041a,NV3041A,NewVision,profiled_behavioral,spi,ExternalComponents.Generated.Display_NV3041A
+display,75,nt35510,NT35510,Novatek,profiled_behavioral,parallel,ExternalComponents.Generated.Display_NT35510
+display,76,otm8009a,OTM8009A,Orise,profiled_behavioral,dsi,ExternalComponents.Generated.Display_OTM8009A
+display,77,r61581,R61581,Renesas,profiled_behavioral,parallel,ExternalComponents.Generated.Display_R61581
+display,78,r61529,R61529,Renesas,profiled_behavioral,parallel,ExternalComponents.Generated.Display_R61529
+display,79,ra8875,RA8875,RAiO,driver_compatible,spi,ExternalComponents.Generated.Display_RA8875
+display,80,ra8876,RA8876,RAiO,profiled_behavioral,spi,ExternalComponents.Generated.Display_RA8876
+display,81,ft800,FT800,Bridgetek,driver_compatible,spi,ExternalComponents.Generated.Display_FT800
+display,82,ft801,FT801,Bridgetek,profiled_behavioral,spi,ExternalComponents.Generated.Display_FT801
+display,83,ft810,FT810,Bridgetek,profiled_behavioral,spi,ExternalComponents.Generated.Display_FT810
+display,84,ft811,FT811,Bridgetek,profiled_behavioral,spi,ExternalComponents.Generated.Display_FT811
+display,85,ft812,FT812,Bridgetek,profiled_behavioral,spi,ExternalComponents.Generated.Display_FT812
+display,86,ft813,FT813,Bridgetek,profiled_behavioral,spi,ExternalComponents.Generated.Display_FT813
+display,87,hd44780,HD44780,Hitachi,driver_compatible,parallel,ExternalComponents.Generated.Display_HD44780
+display,88,ks0066,KS0066,Samsung,profiled_behavioral,parallel,ExternalComponents.Generated.Display_KS0066
+display,89,st7066u,ST7066U,Sitronix,profiled_behavioral,parallel,ExternalComponents.Generated.Display_ST7066U
+display,90,aip31068,AIP31068,AiP,profiled_behavioral,i2c,ExternalComponents.Generated.Display_AIP31068
+display,91,st7032,ST7032,Sitronix,profiled_behavioral,i2c,ExternalComponents.Generated.Display_ST7032
+display,92,st7036,ST7036,Sitronix,profiled_behavioral,i2c,ExternalComponents.Generated.Display_ST7036
+display,93,pcf2119,PCF2119,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Display_PCF2119
+display,94,ht16k33,HT16K33,Holtek,driver_compatible,i2c,ExternalComponents.Generated.Display_HT16K33
+display,95,max7219,MAX7219,Analog Devices,driver_compatible,spi,ExternalComponents.Generated.Display_MAX7219
+display,96,is31fl3731,IS31FL3731,Lumissil,driver_compatible,i2c,ExternalComponents.Generated.Display_IS31FL3731
+display,97,is31fl3741,IS31FL3741,Lumissil,profiled_behavioral,i2c,ExternalComponents.Generated.Display_IS31FL3741
+display,98,hub75,HUB75,Various,profiled_behavioral,parallel,ExternalComponents.Generated.Display_HUB75
+display,99,tm1637,TM1637,Titan Micro,profiled_behavioral,gpio_serial,ExternalComponents.Generated.Display_TM1637
+display,100,tm1638,TM1638,Titan Micro,profiled_behavioral,gpio_serial,ExternalComponents.Generated.Display_TM1638
+sensor,1,bme280,BME280,Bosch,driver_compatible,i2c+spi,ExternalComponents.Generated.Sensor_BME280
+sensor,2,bme680,BME680,Bosch,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_BME680
+sensor,3,bme688,BME688,Bosch,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_BME688
+sensor,4,bmp180,BMP180,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMP180
+sensor,5,bmp280,BMP280,Bosch,driver_compatible,i2c+spi,ExternalComponents.Generated.Sensor_BMP280
+sensor,6,bmp388,BMP388,Bosch,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_BMP388
+sensor,7,bmp390,BMP390,Bosch,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_BMP390
+sensor,8,bmp581,BMP581,Bosch,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_BMP581
+sensor,9,dps310,DPS310,Infineon,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_DPS310
+sensor,10,lps22hb,LPS22HB,STMicroelectronics,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_LPS22HB
+sensor,11,lps22hh,LPS22HH,STMicroelectronics,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_LPS22HH
+sensor,12,lps25hb,LPS25HB,STMicroelectronics,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_LPS25HB
+sensor,13,lps28dfw,LPS28DFW,STMicroelectronics,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_LPS28DFW
+sensor,14,ms5611,MS5611,TE Connectivity,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MS5611
+sensor,15,ms5607,MS5607,TE Connectivity,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MS5607
+sensor,16,mpl3115a2,MPL3115A2,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MPL3115A2
+sensor,17,icp10100,ICP10100,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICP10100
+sensor,18,icp10111,ICP10111,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICP10111
+sensor,19,icp20100,ICP20100,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICP20100
+sensor,20,mprls0025pa,MPRLS0025PA,Honeywell,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MPRLS0025PA
+sensor,21,sht20,SHT20,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT20
+sensor,22,sht21,SHT21,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT21
+sensor,23,sht30,SHT30,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT30
+sensor,24,sht31,SHT31,Sensirion,driver_compatible,i2c,ExternalComponents.Generated.Sensor_SHT31
+sensor,25,sht35,SHT35,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT35
+sensor,26,sht40,SHT40,Sensirion,driver_compatible,i2c,ExternalComponents.Generated.Sensor_SHT40
+sensor,27,sht41,SHT41,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT41
+sensor,28,sht45,SHT45,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT45
+sensor,29,shtc3,SHTC3,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHTC3
+sensor,30,hdc1080,HDC1080,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HDC1080
+sensor,31,hdc2010,HDC2010,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HDC2010
+sensor,32,hdc2080,HDC2080,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HDC2080
+sensor,33,hdc3020,HDC3020,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HDC3020
+sensor,34,aht20,AHT20,ASAIR,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AHT20
+sensor,35,si7021,SI7021,Silicon Labs,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SI7021
+sensor,36,adxl345,ADXL345,Analog Devices,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_ADXL345
+sensor,37,adxl343,ADXL343,Analog Devices,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_ADXL343
+sensor,38,adxl355,ADXL355,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_ADXL355
+sensor,39,adxl357,ADXL357,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_ADXL357
+sensor,40,adxl362,ADXL362,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_ADXL362
+sensor,41,adxl367,ADXL367,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_ADXL367
+sensor,42,adxl372,ADXL372,Analog Devices,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_ADXL372
+sensor,43,lis2dh12,LIS2DH12,STMicroelectronics,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_LIS2DH12
+sensor,44,lis3dh,LIS3DH,STMicroelectronics,driver_compatible,i2c+spi,ExternalComponents.Generated.Sensor_LIS3DH
+sensor,45,lis2dw12,LIS2DW12,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS2DW12
+sensor,46,lis2dtw12,LIS2DTW12,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS2DTW12
+sensor,47,lis2du12,LIS2DU12,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS2DU12
+sensor,48,lis2dux12,LIS2DUX12,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS2DUX12
+sensor,49,lis331dlh,LIS331DLH,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS331DLH
+sensor,50,lsm303agr,LSM303AGR,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM303AGR
+sensor,51,lsm303dlhc,LSM303DLHC,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM303DLHC
+sensor,52,lsm303d,LSM303D,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM303D
+sensor,53,lsm6ds3,LSM6DS3,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DS3
+sensor,54,lsm6dsl,LSM6DSL,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DSL
+sensor,55,lsm6dso,LSM6DSO,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DSO
+sensor,56,lsm6dsox,LSM6DSOX,STMicroelectronics,driver_compatible,i2c+spi,ExternalComponents.Generated.Sensor_LSM6DSOX
+sensor,57,lsm6dsr,LSM6DSR,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DSR
+sensor,58,lsm6dsv16x,LSM6DSV16X,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DSV16X
+sensor,59,lsm6dsv32x,LSM6DSV32X,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LSM6DSV32X
+sensor,60,ism330dhcx,ISM330DHCX,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ISM330DHCX
+sensor,61,asm330lhh,ASM330LHH,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ASM330LHH
+sensor,62,bmi160,BMI160,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMI160
+sensor,63,bmi270,BMI270,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMI270
+sensor,64,bmi323,BMI323,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMI323
+sensor,65,bmi088,BMI088,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMI088
+sensor,66,bma220,BMA220,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMA220
+sensor,67,bma250,BMA250,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMA250
+sensor,68,bma280,BMA280,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMA280
+sensor,69,bma400,BMA400,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMA400
+sensor,70,bma456,BMA456,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMA456
+sensor,71,mpu6050,MPU6050,TDK InvenSense,driver_compatible,i2c,ExternalComponents.Generated.Sensor_MPU6050
+sensor,72,mpu6500,MPU6500,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MPU6500
+sensor,73,mpu6886,MPU6886,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MPU6886
+sensor,74,mpu9250,MPU9250,TDK InvenSense,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MPU9250
+sensor,75,icm20602,ICM20602,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM20602
+sensor,76,icm20649,ICM20649,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM20649
+sensor,77,icm20948,ICM20948,TDK InvenSense,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_ICM20948
+sensor,78,icm42605,ICM42605,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM42605
+sensor,79,icm42670,ICM42670,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM42670
+sensor,80,icm42688,ICM42688,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM42688
+sensor,81,icm45686,ICM45686,TDK InvenSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ICM45686
+sensor,82,bno055,BNO055,Various,driver_compatible,i2c+uart,ExternalComponents.Generated.Sensor_BNO055
+sensor,83,bno080,BNO080,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BNO080
+sensor,84,bno085,BNO085,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BNO085
+sensor,85,fxas21002c,FXAS21002C,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_FXAS21002C
+sensor,86,fxos8700,FXOS8700,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_FXOS8700
+sensor,87,mma8451q,MMA8451Q,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MMA8451Q
+sensor,88,kx022,KX022,Kionix,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_KX022
+sensor,89,kx132,KX132,Kionix,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_KX132
+sensor,90,iis3dwb,IIS3DWB,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_IIS3DWB
+sensor,91,hmc5883l,HMC5883L,Honeywell,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HMC5883L
+sensor,92,qmc5883l,QMC5883L,QST,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_QMC5883L
+sensor,93,lis3mdl,LIS3MDL,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS3MDL
+sensor,94,mmc5603nj,MMC5603NJ,MEMSIC,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MMC5603NJ
+sensor,95,mmc5983ma,MMC5983MA,MEMSIC,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MMC5983MA
+sensor,96,ak8963,AK8963,Asahi Kasei,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AK8963
+sensor,97,ak09916,AK09916,Asahi Kasei,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AK09916
+sensor,98,ak09918,AK09918,Asahi Kasei,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AK09918
+sensor,99,bmm150,BMM150,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMM150
+sensor,100,bmm350,BMM350,Bosch,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMM350
+sensor,101,mag3110,MAG3110,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAG3110
+sensor,102,rm3100,RM3100,Various,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_RM3100
+sensor,103,mlx90393,MLX90393,Melexis,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MLX90393
+sensor,104,tlv493d,TLV493D,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TLV493D
+sensor,105,lis2mdl,LIS2MDL,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LIS2MDL
+sensor,106,bh1750,BH1750,ROHM,driver_compatible,i2c,ExternalComponents.Generated.Sensor_BH1750
+sensor,107,bh1730,BH1730,ROHM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BH1730
+sensor,108,veml7700,VEML7700,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VEML7700
+sensor,109,veml6030,VEML6030,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VEML6030
+sensor,110,veml6035,VEML6035,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VEML6035
+sensor,111,veml6040,VEML6040,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VEML6040
+sensor,112,tsl2561,TSL2561,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TSL2561
+sensor,113,tsl2591,TSL2591,Various,driver_compatible,i2c,ExternalComponents.Generated.Sensor_TSL2591
+sensor,114,tsl2572,TSL2572,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TSL2572
+sensor,115,opt3001,OPT3001,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_OPT3001
+sensor,116,opt3002,OPT3002,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_OPT3002
+sensor,117,opt4001,OPT4001,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_OPT4001
+sensor,118,opt4048,OPT4048,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_OPT4048
+sensor,119,ltr303,LTR303,Lite-On,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTR303
+sensor,120,ltr329,LTR329,Lite-On,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTR329
+sensor,121,ltr390,LTR390,Lite-On,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTR390
+sensor,122,ltr507,LTR507,Lite-On,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTR507
+sensor,123,ltr559,LTR559,Lite-On,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTR559
+sensor,124,apds9301,APDS9301,Broadcom,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_APDS9301
+sensor,125,apds9306,APDS9306,Broadcom,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_APDS9306
+sensor,126,apds9930,APDS9930,Broadcom,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_APDS9930
+sensor,127,apds9960,APDS9960,Broadcom,driver_compatible,i2c,ExternalComponents.Generated.Sensor_APDS9960
+sensor,128,vcnl4010,VCNL4010,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VCNL4010
+sensor,129,vcnl4040,VCNL4040,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VCNL4040
+sensor,130,vcnl4200,VCNL4200,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VCNL4200
+sensor,131,isl29125,ISL29125,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ISL29125
+sensor,132,tcs34725,TCS34725,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TCS34725
+sensor,133,tcs3400,TCS3400,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TCS3400
+sensor,134,tcs3430,TCS3430,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TCS3430
+sensor,135,as7341,AS7341,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS7341
+sensor,136,as7262,AS7262,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS7262
+sensor,137,as7263,AS7263,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS7263
+sensor,138,as7265x,AS7265X,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS7265X
+sensor,139,as7331,AS7331,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS7331
+sensor,140,si1145,SI1145,Silicon Labs,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SI1145
+sensor,141,veml6075,VEML6075,Vishay,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VEML6075
+sensor,142,vl53l0x,VL53L0X,STMicroelectronics,driver_compatible,i2c,ExternalComponents.Generated.Sensor_VL53L0X
+sensor,143,vl53l1x,VL53L1X,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L1X
+sensor,144,vl53l3cx,VL53L3CX,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L3CX
+sensor,145,vl53l4cd,VL53L4CD,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L4CD
+sensor,146,vl53l4cx,VL53L4CX,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L4CX
+sensor,147,vl53l5cx,VL53L5CX,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L5CX
+sensor,148,vl53l7cx,VL53L7CX,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL53L7CX
+sensor,149,vl6180x,VL6180X,STMicroelectronics,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_VL6180X
+sensor,150,tmf8821,TMF8821,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMF8821
+sensor,151,ccs811,CCS811,ams OSRAM,driver_compatible,i2c,ExternalComponents.Generated.Sensor_CCS811
+sensor,152,sgp30,SGP30,Sensirion,driver_compatible,i2c,ExternalComponents.Generated.Sensor_SGP30
+sensor,153,sgp40,SGP40,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SGP40
+sensor,154,sgp41,SGP41,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SGP41
+sensor,155,scd30,SCD30,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SCD30
+sensor,156,scd40,SCD40,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SCD40
+sensor,157,scd41,SCD41,Sensirion,driver_compatible,i2c,ExternalComponents.Generated.Sensor_SCD41
+sensor,158,scd43,SCD43,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SCD43
+sensor,159,ens160,ENS160,ScioSense,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ENS160
+sensor,160,mics4514,MICS4514,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MICS4514
+sensor,161,mics6814,MICS6814,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MICS6814
+sensor,162,mq2,MQ2,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ2
+sensor,163,mq3,MQ3,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ3
+sensor,164,mq4,MQ4,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ4
+sensor,165,mq5,MQ5,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ5
+sensor,166,mq6,MQ6,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ6
+sensor,167,mq7,MQ7,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ7
+sensor,168,mq8,MQ8,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ8
+sensor,169,mq9,MQ9,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ9
+sensor,170,mq131,MQ131,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ131
+sensor,171,mq135,MQ135,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_MQ135
+sensor,172,ze07_co,ZE07_CO,Various,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_ZE07_CO
+sensor,173,ze08_ch2o,ZE08_CH2O,Various,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_ZE08_CH2O
+sensor,174,pms5003,PMS5003,Plantower,driver_compatible,uart,ExternalComponents.Generated.Sensor_PMS5003
+sensor,175,pms7003,PMS7003,Plantower,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_PMS7003
+sensor,176,pmsa003i,PMSA003I,Plantower,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_PMSA003I
+sensor,177,sps30,SPS30,Sensirion,profiled_behavioral,i2c+uart,ExternalComponents.Generated.Sensor_SPS30
+sensor,178,sen5x,SEN5X,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SEN5X
+sensor,179,bmv080,BMV080,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_BMV080
+sensor,180,gp2y1010au0f,GP2Y1010AU0F,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_GP2Y1010AU0F
+sensor,181,hm3301,HM3301,Seeed Studio,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_HM3301
+sensor,182,sfa30,SFA30,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SFA30
+sensor,183,zmod4410,ZMOD4410,Renesas,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ZMOD4410
+sensor,184,zmod4510,ZMOD4510,Renesas,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ZMOD4510
+sensor,185,ags10,AGS10,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AGS10
+sensor,186,ina219,INA219,Texas Instruments,driver_compatible,i2c,ExternalComponents.Generated.Sensor_INA219
+sensor,187,ina226,INA226,Texas Instruments,driver_compatible,i2c,ExternalComponents.Generated.Sensor_INA226
+sensor,188,ina228,INA228,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA228
+sensor,189,ina229,INA229,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA229
+sensor,190,ina230,INA230,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA230
+sensor,191,ina231,INA231,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA231
+sensor,192,ina238,INA238,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA238
+sensor,193,ina260,INA260,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA260
+sensor,194,ina3221,INA3221,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA3221
+sensor,195,ina4235,INA4235,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_INA4235
+sensor,196,ltc2941,LTC2941,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2941
+sensor,197,ltc2942,LTC2942,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2942
+sensor,198,ltc2943,LTC2943,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2943
+sensor,199,ltc2944,LTC2944,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2944
+sensor,200,ltc2990,LTC2990,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2990
+sensor,201,ltc2991,LTC2991,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC2991
+sensor,202,ltc4151,LTC4151,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_LTC4151
+sensor,203,max17043,MAX17043,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX17043
+sensor,204,max17048,MAX17048,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX17048
+sensor,205,max17055,MAX17055,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX17055
+sensor,206,max17260,MAX17260,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX17260
+sensor,207,max17261,MAX17261,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX17261
+sensor,208,max34407,MAX34407,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX34407
+sensor,209,pac1710,PAC1710,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_PAC1710
+sensor,210,pac1934,PAC1934,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_PAC1934
+sensor,211,pac1944,PAC1944,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_PAC1944
+sensor,212,acs712,ACS712,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_ACS712
+sensor,213,acs723,ACS723,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_ACS723
+sensor,214,acs724,ACS724,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_ACS724
+sensor,215,acs758,ACS758,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_ACS758
+sensor,216,ads1115,ADS1115,Texas Instruments,driver_compatible,i2c,ExternalComponents.Generated.Sensor_ADS1115
+sensor,217,ads1015,ADS1015,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ADS1015
+sensor,218,mcp3421,MCP3421,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MCP3421
+sensor,219,mcp3424,MCP3424,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MCP3424
+sensor,220,ade7953,ADE7953,Analog Devices,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_ADE7953
+sensor,221,hx711,HX711,Avia Semiconductor,driver_compatible,gpio_serial,ExternalComponents.Generated.Sensor_HX711
+sensor,222,nau7802,NAU7802,Nuvoton,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_NAU7802
+sensor,223,ads1232,ADS1232,Texas Instruments,profiled_behavioral,gpio_serial,ExternalComponents.Generated.Sensor_ADS1232
+sensor,224,as5600,AS5600,ams OSRAM,driver_compatible,i2c,ExternalComponents.Generated.Sensor_AS5600
+sensor,225,as5048a,AS5048A,ams OSRAM,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_AS5048A
+sensor,226,as5048b,AS5048B,ams OSRAM,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AS5048B
+sensor,227,as5047p,AS5047P,ams OSRAM,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_AS5047P
+sensor,228,as5147,AS5147,ams OSRAM,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_AS5147
+sensor,229,ma730,MA730,Various,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_MA730
+sensor,230,ma732,MA732,Various,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_MA732
+sensor,231,mt6701,MT6701,Various,profiled_behavioral,i2c+spi,ExternalComponents.Generated.Sensor_MT6701
+sensor,232,tle5012b,TLE5012B,Infineon,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_TLE5012B
+sensor,233,amt102v,AMT102V,Various,profiled_behavioral,quadrature,ExternalComponents.Generated.Sensor_AMT102V
+sensor,234,amt22,AMT22,Various,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_AMT22
+sensor,235,pec11r,PEC11R,Various,profiled_behavioral,quadrature,ExternalComponents.Generated.Sensor_PEC11R
+sensor,236,ky040,KY040,Various,profiled_behavioral,quadrature,ExternalComponents.Generated.Sensor_KY040
+sensor,237,a1335,A1335,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_A1335
+sensor,238,mlx90316,MLX90316,Melexis,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_MLX90316
+sensor,239,tmag5170,TMAG5170,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMAG5170
+sensor,240,tmag5273,TMAG5273,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMAG5273
+sensor,241,drv5053,DRV5053,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_DRV5053
+sensor,242,a3144,A3144,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Sensor_A3144
+sensor,243,ss49e,SS49E,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_SS49E
+sensor,244,mpr121,MPR121,NXP,driver_compatible,i2c,ExternalComponents.Generated.Sensor_MPR121
+sensor,245,cap1188,CAP1188,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_CAP1188
+sensor,246,at42qt1070,AT42QT1070,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AT42QT1070
+sensor,247,at42qt2120,AT42QT2120,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AT42QT2120
+sensor,248,ttp229,TTP229,Various,profiled_behavioral,i2c+gpio,ExternalComponents.Generated.Sensor_TTP229
+sensor,249,fdc1004,FDC1004,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_FDC1004
+sensor,250,fdc2214,FDC2214,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_FDC2214
+sensor,251,max30100,MAX30100,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX30100
+sensor,252,max30101,MAX30101,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX30101
+sensor,253,max30102,MAX30102,Analog Devices,driver_compatible,i2c,ExternalComponents.Generated.Sensor_MAX30102
+sensor,254,max30105,MAX30105,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX30105
+sensor,255,max86140,MAX86140,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX86140
+sensor,256,max86141,MAX86141,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX86141
+sensor,257,max86150,MAX86150,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MAX86150
+sensor,258,afe4404,AFE4404,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AFE4404
+sensor,259,ad8232,AD8232,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AD8232
+sensor,260,ads1292r,ADS1292R,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_ADS1292R
+sensor,261,mlx90614,MLX90614,Melexis,driver_compatible,i2c,ExternalComponents.Generated.Sensor_MLX90614
+sensor,262,mlx90615,MLX90615,Melexis,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MLX90615
+sensor,263,mlx90632,MLX90632,Melexis,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MLX90632
+sensor,264,mlx90640,MLX90640,Melexis,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MLX90640
+sensor,265,mlx90641,MLX90641,Melexis,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MLX90641
+sensor,266,amg8833,AMG8833,Panasonic,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AMG8833
+sensor,267,tmp006,TMP006,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMP006
+sensor,268,tmp007,TMP007,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMP007
+sensor,269,tmp102,TMP102,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMP102
+sensor,270,tmp117,TMP117,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TMP117
+sensor,271,mcp9808,MCP9808,Microchip,driver_compatible,i2c,ExternalComponents.Generated.Sensor_MCP9808
+sensor,272,ds18b20,DS18B20,Analog Devices,driver_compatible,onewire,ExternalComponents.Generated.Sensor_DS18B20
+sensor,273,max31855,MAX31855,Analog Devices,driver_compatible,spi,ExternalComponents.Generated.Sensor_MAX31855
+sensor,274,max31856,MAX31856,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Sensor_MAX31856
+sensor,275,max31865,MAX31865,Analog Devices,driver_compatible,spi,ExternalComponents.Generated.Sensor_MAX31865
+sensor,276,sen0161_ph,SEN0161_PH,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_SEN0161_PH
+sensor,277,sen0244_tds,SEN0244_TDS,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_SEN0244_TDS
+sensor,278,sen0189_turbidity,SEN0189_TURBIDITY,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_SEN0189_TURBIDITY
+sensor,279,sen0237_dissolved_oxygen,SEN0237_DISSOLVED_OXYGEN,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_SEN0237_DISSOLVED_OXYGEN
+sensor,280,gravity_orp,GRAVITY_ORP,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_GRAVITY_ORP
+sensor,281,capacitive_soil_moisture,CAPACITIVE_SOIL_MOISTURE,Microchip,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_CAPACITIVE_SOIL_MOISTURE
+sensor,282,teros10,TEROS10,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TEROS10
+sensor,283,teros12,TEROS12,Various,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_TEROS12
+sensor,284,yl83_rain,YL83_RAIN,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Sensor_YL83_RAIN
+sensor,285,davis_anemometer,DAVIS_ANEMOMETER,Various,profiled_behavioral,gpio_pulse,ExternalComponents.Generated.Sensor_DAVIS_ANEMOMETER
+sensor,286,davis_wind_vane,DAVIS_WIND_VANE,Various,profiled_behavioral,analog,ExternalComponents.Generated.Sensor_DAVIS_WIND_VANE
+sensor,287,ms8607,MS8607,TE Connectivity,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_MS8607
+sensor,288,sht85,SHT85,Sensirion,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_SHT85
+sensor,289,am2315,AM2315,ASAIR,profiled_behavioral,i2c,ExternalComponents.Generated.Sensor_AM2315
+sensor,290,atlas_ezo_ph,ATLAS_EZO_PH,Various,profiled_behavioral,uart_i2c,ExternalComponents.Generated.Sensor_ATLAS_EZO_PH
+sensor,291,neo6m,NEO6M,u-blox,driver_compatible,uart,ExternalComponents.Generated.Sensor_NEO6M
+sensor,292,neo_m8n,NEO_M8N,u-blox,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_NEO_M8N
+sensor,293,neo_m9n,NEO_M9N,u-blox,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_NEO_M9N
+sensor,294,zed_f9p,ZED_F9P,u-blox,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_ZED_F9P
+sensor,295,max_m10s,MAX_M10S,Analog Devices,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_MAX_M10S
+sensor,296,mtk3339,MTK3339,MediaTek,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_MTK3339
+sensor,297,ld2410,LD2410,Hi-Link,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_LD2410
+sensor,298,ld2450,LD2450,Hi-Link,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_LD2450
+sensor,299,hc_sr04,HC_SR04,Various,driver_compatible,gpio_trigger_echo,ExternalComponents.Generated.Sensor_HC_SR04
+sensor,300,tfmini_plus,TFMINI_PLUS,Benewake,profiled_behavioral,uart,ExternalComponents.Generated.Sensor_TFMINI_PLUS
+actuator,1,pca9685,PCA9685,NXP,driver_compatible,i2c,ExternalComponents.Generated.Actuator_PCA9685
+actuator,2,tlc5940,TLC5940,Texas Instruments,driver_compatible,spi,ExternalComponents.Generated.Actuator_TLC5940
+actuator,3,tlc5947,TLC5947,Texas Instruments,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TLC5947
+actuator,4,tlc59711,TLC59711,Texas Instruments,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TLC59711
+actuator,5,is31fl3236a,IS31FL3236A,Lumissil,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_IS31FL3236A
+actuator,6,is31fl3731,IS31FL3731,Lumissil,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_IS31FL3731
+actuator,7,is31fl3741,IS31FL3741,Lumissil,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_IS31FL3741
+actuator,8,lp55231,LP55231,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_LP55231
+actuator,9,lp5562,LP5562,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_LP5562
+actuator,10,max7219,MAX7219,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_MAX7219
+actuator,11,max7221,MAX7221,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_MAX7221
+actuator,12,ht16k33,HT16K33,Holtek,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_HT16K33
+actuator,13,aw9523,AW9523,Awinic,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_AW9523
+actuator,14,sx1509,SX1509,Semtech,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_SX1509
+actuator,15,ws2812b,WS2812B,Worldsemi,driver_compatible,gpio_serial,ExternalComponents.Generated.Actuator_WS2812B
+actuator,16,sk6812,SK6812,Opsco,profiled_behavioral,gpio_serial,ExternalComponents.Generated.Actuator_SK6812
+actuator,17,apa102,APA102,Newstar,driver_compatible,spi,ExternalComponents.Generated.Actuator_APA102
+actuator,18,lpd8806,LPD8806,Texas Instruments,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_LPD8806
+actuator,19,p9813,P9813,Various,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_P9813
+actuator,20,my9221,MY9221,My-Semi,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_MY9221
+actuator,21,l298n,L298N,Various,driver_compatible,gpio_pwm,ExternalComponents.Generated.Actuator_L298N
+actuator,22,l293d,L293D,Various,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_L293D
+actuator,23,tb6612fng,TB6612FNG,Toshiba,driver_compatible,gpio_pwm,ExternalComponents.Generated.Actuator_TB6612FNG
+actuator,24,drv8833,DRV8833,Texas Instruments,driver_compatible,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8833
+actuator,25,drv8835,DRV8835,Texas Instruments,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8835
+actuator,26,drv8871,DRV8871,Texas Instruments,driver_compatible,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8871
+actuator,27,drv8876,DRV8876,Texas Instruments,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8876
+actuator,28,drv8251a,DRV8251A,Texas Instruments,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8251A
+actuator,29,drv8701,DRV8701,Texas Instruments,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8701
+actuator,30,vnh5019,VNH5019,STMicroelectronics,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_VNH5019
+actuator,31,vnh2sp30,VNH2SP30,STMicroelectronics,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_VNH2SP30
+actuator,32,mc33926,MC33926,NXP,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_MC33926
+actuator,33,btn8982ta,BTN8982TA,Infineon,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_BTN8982TA
+actuator,34,bts7960,BTS7960,Infineon,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_BTS7960
+actuator,35,tle5206,TLE5206,Infineon,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_TLE5206
+actuator,36,max14870,MAX14870,Analog Devices,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_MAX14870
+actuator,37,stspin250,STSPIN250,STMicroelectronics,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_STSPIN250
+actuator,38,stspin840,STSPIN840,STMicroelectronics,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_STSPIN840
+actuator,39,drv8313,DRV8313,Texas Instruments,driver_compatible,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8313
+actuator,40,drv8305,DRV8305,Texas Instruments,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_DRV8305
+actuator,41,a4988,A4988,Allegro,driver_compatible,step_dir,ExternalComponents.Generated.Actuator_A4988
+actuator,42,a3967,A3967,Allegro,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_A3967
+actuator,43,drv8825,DRV8825,Texas Instruments,driver_compatible,step_dir,ExternalComponents.Generated.Actuator_DRV8825
+actuator,44,drv8880,DRV8880,Texas Instruments,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_DRV8880
+actuator,45,drv8889q1,DRV8889Q1,Texas Instruments,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_DRV8889Q1
+actuator,46,tmc2100,TMC2100,Trinamic,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_TMC2100
+actuator,47,tmc2130,TMC2130,Trinamic,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TMC2130
+actuator,48,tmc2208,TMC2208,Trinamic,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_TMC2208
+actuator,49,tmc2209,TMC2209,Trinamic,driver_compatible,step_dir,ExternalComponents.Generated.Actuator_TMC2209
+actuator,50,tmc2225,TMC2225,Trinamic,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_TMC2225
+actuator,51,tmc2226,TMC2226,Trinamic,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_TMC2226
+actuator,52,tmc2300,TMC2300,Trinamic,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_TMC2300
+actuator,53,tmc2660,TMC2660,Trinamic,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TMC2660
+actuator,54,tmc4361a,TMC4361A,Trinamic,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TMC4361A
+actuator,55,tmc5041,TMC5041,Trinamic,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TMC5041
+actuator,56,tmc5072,TMC5072,Trinamic,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_TMC5072
+actuator,57,tmc5160,TMC5160,Trinamic,driver_compatible,spi,ExternalComponents.Generated.Actuator_TMC5160
+actuator,58,stspin220,STSPIN220,STMicroelectronics,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_STSPIN220
+actuator,59,stspin820,STSPIN820,STMicroelectronics,profiled_behavioral,step_dir,ExternalComponents.Generated.Actuator_STSPIN820
+actuator,60,l6470,L6470,STMicroelectronics,driver_compatible,spi,ExternalComponents.Generated.Actuator_L6470
+actuator,61,pca9685_servo,PCA9685_SERVO,NXP,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_PCA9685_SERVO
+actuator,62,ssc32u,SSC32U,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_SSC32U
+actuator,63,pololu_maestro6,POLOLU_MAESTRO6,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_POLOLU_MAESTRO6
+actuator,64,pololu_maestro12,POLOLU_MAESTRO12,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_POLOLU_MAESTRO12
+actuator,65,pololu_maestro18,POLOLU_MAESTRO18,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_POLOLU_MAESTRO18
+actuator,66,pololu_maestro24,POLOLU_MAESTRO24,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_POLOLU_MAESTRO24
+actuator,67,dynamixel_ax12a,DYNAMIXEL_AX12A,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_DYNAMIXEL_AX12A
+actuator,68,dynamixel_xl430,DYNAMIXEL_XL430,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_DYNAMIXEL_XL430
+actuator,69,lewansoul_lx16a,LEWANSOUL_LX16A,Various,profiled_behavioral,uart,ExternalComponents.Generated.Actuator_LEWANSOUL_LX16A
+actuator,70,hobby_servo_generic,HOBBY_SERVO_GENERIC,Various,driver_compatible,pwm,ExternalComponents.Generated.Actuator_HOBBY_SERVO_GENERIC
+actuator,71,drv2605l,DRV2605L,Texas Instruments,driver_compatible,i2c,ExternalComponents.Generated.Actuator_DRV2605L
+actuator,72,drv2624,DRV2624,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_DRV2624
+actuator,73,da7280,DA7280,Dialog Semiconductor,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_DA7280
+actuator,74,cs40l25,CS40L25,Cirrus Logic,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_CS40L25
+actuator,75,cs40l26,CS40L26,Cirrus Logic,driver_compatible,i2c,ExternalComponents.Generated.Actuator_CS40L26
+actuator,76,cs40l27,CS40L27,Cirrus Logic,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_CS40L27
+actuator,77,cs40l50,CS40L50,Cirrus Logic,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_CS40L50
+actuator,78,max98357a,MAX98357A,Analog Devices,profiled_behavioral,i2s,ExternalComponents.Generated.Actuator_MAX98357A
+actuator,79,pam8302,PAM8302,Diodes Inc.,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_PAM8302
+actuator,80,piezo_buzzer_generic,PIEZO_BUZZER_GENERIC,Various,profiled_behavioral,gpio_pwm,ExternalComponents.Generated.Actuator_PIEZO_BUZZER_GENERIC
+actuator,81,relay_1ch,RELAY_1CH,Various,driver_compatible,gpio,ExternalComponents.Generated.Actuator_RELAY_1CH
+actuator,82,relay_4ch,RELAY_4CH,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_RELAY_4CH
+actuator,83,relay_8ch,RELAY_8CH,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_RELAY_8CH
+actuator,84,ssr_generic,SSR_GENERIC,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_SSR_GENERIC
+actuator,85,mosfet_switch,MOSFET_SWITCH,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_MOSFET_SWITCH
+actuator,86,uln2003a,ULN2003A,Various,driver_compatible,gpio,ExternalComponents.Generated.Actuator_ULN2003A
+actuator,87,solenoid_12v,SOLENOID_12V,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_SOLENOID_12V
+actuator,88,peristaltic_pump,PERISTALTIC_PUMP,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_PERISTALTIC_PUMP
+actuator,89,water_pump,WATER_PUMP,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_WATER_PUMP
+actuator,90,proportional_valve,PROPORTIONAL_VALVE,Various,profiled_behavioral,gpio,ExternalComponents.Generated.Actuator_PROPORTIONAL_VALVE
+actuator,91,mcp4725,MCP4725,Microchip,driver_compatible,i2c,ExternalComponents.Generated.Actuator_MCP4725
+actuator,92,mcp4728,MCP4728,Microchip,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_MCP4728
+actuator,93,dac8571,DAC8571,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_DAC8571
+actuator,94,dac8574,DAC8574,Texas Instruments,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_DAC8574
+actuator,95,ad5693r,AD5693R,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_AD5693R
+actuator,96,ad5686r,AD5686R,Analog Devices,profiled_behavioral,i2c,ExternalComponents.Generated.Actuator_AD5686R
+actuator,97,mcp4131,MCP4131,Microchip,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_MCP4131
+actuator,98,mcp4231,MCP4231,Microchip,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_MCP4231
+actuator,99,ad5206,AD5206,Analog Devices,profiled_behavioral,spi,ExternalComponents.Generated.Actuator_AD5206
+actuator,100,x9c103,X9C103,Renesas,profiled_behavioral,gpio_serial,ExternalComponents.Generated.Actuator_X9C103

@@ -1,0 +1,23 @@
+services:
+  vsd-local-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: visual-system-designer-local:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:9010:9010"
+    environment:
+      VSD_LOCAL_DATA_DIR: /data
+      VSD_WORKSPACE: /workspace
+      RENODE_BIN: /toolchains/renode/renode
+    volumes:
+      - ./local-data:/data
+      - ./workspace:/workspace
+      - ./toolchains:/toolchains:ro
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    tmpfs:
+      - /tmp:size=256m,mode=1777
