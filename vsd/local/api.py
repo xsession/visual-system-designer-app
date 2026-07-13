@@ -126,6 +126,19 @@ def create_app(config: LocalConfig | None = None) -> FastAPI:
     async def component_stats() -> dict[str, Any]:
         return store.component_stats()
 
+    @app.post("/api/components/import", dependencies=[Depends(require_token)])
+    async def import_components(file: UploadFile = File(...)) -> dict[str, Any]:
+        suffix = Path(file.filename or "").suffix or ".json"
+        imports_dir = config.data_dir / "imports"
+        imports_dir.mkdir(parents=True, exist_ok=True)
+        path = imports_dir / f"component-library-{int(time.time() * 1000)}{suffix}"
+        content = await file.read()
+        if not content:
+            raise HTTPException(status_code=400, detail="Uploaded component library is empty")
+        path.write_bytes(content)
+        imported = await asyncio.to_thread(store.import_component_library, path)
+        return {"imported": imported, "catalog": store.component_stats()}
+
     @app.get("/api/bundled-assets")
     async def bundled_assets() -> list[dict[str, Any]]:
         package = files("vsd.local.assets")

@@ -157,6 +157,9 @@ class LocalStore:
                 (str(SCHEMA_VERSION),),
             )
 
+    def import_component_library(self, path: str | Path) -> int:
+        return self.import_component_catalog(path) if Path(path).suffix.lower() == ".csv" else self.import_component_json(path)
+
     def import_component_catalog(self, csv_path: str | Path) -> int:
         path = csv_path if hasattr(csv_path, "open") else Path(csv_path)
         if isinstance(path, Path) and not path.exists():
@@ -189,6 +192,65 @@ class LocalStore:
                 )
                 count += 1
         return count
+
+    def import_component_json(self, json_path: str | Path) -> int:
+        path = Path(json_path)
+        if not path.exists():
+            raise FileNotFoundError(path)
+        payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        components = self._component_items_from_json(payload)
+        count = 0
+        with self.connect() as db:
+            for rank, item in enumerate(components, start=1):
+                normalized = self._normalize_component_item(item, rank)
+                db.execute(
+                    """
+                    INSERT INTO components(id, kind, rank, model, vendor, tier, bus, class_name, metadata_json)
+                    VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ON CONFLICT(id) DO UPDATE SET
+                        kind=excluded.kind, rank=excluded.rank, model=excluded.model,
+                        vendor=excluded.vendor, tier=excluded.tier, bus=excluded.bus,
+                        class_name=excluded.class_name, metadata_json=excluded.metadata_json
+                    """,
+                    normalized,
+                )
+                count += 1
+        return count
+
+    @staticmethod
+    def _component_items_from_json(payload: Any) -> list[dict[str, Any]]:
+        if isinstance(payload, list):
+            items = payload
+        elif isinstance(payload, dict):
+            items = payload.get("components") or payload.get("nodes") or payload.get("items") or []
+        else:
+            items = []
+        return [item for item in items if isinstance(item, dict)]
+
+    @staticmethod
+    def _first_string(item: dict[str, Any], *keys: str, default: str = "") -> str:
+        for key in keys:
+            value = item.get(key)
+            if isinstance(value, str) and value.strip():
+                return value.strip()
+        return default
+
+    def _normalize_component_item(self, item: dict[str, Any], fallback_rank: int) -> tuple[Any, ...]:
+        slug = self._first_string(item, "id", "slug", "name", "model", default=f"component-{fallback_rank}").lower().replace(" ", "-")
+        kind = self._first_string(item, "kind", "category", "type", default="component").lower()
+        metadata = dict(item.get("metadata") or {})
+        metadata.update({"source": "designer-antmicro-library", "slug": slug})
+        return (
+            f"{kind}:{slug}",
+            kind,
+            int(item.get("rank") or fallback_rank),
+            self._first_string(item, "model", "name", "label", default=slug),
+            self._first_string(item, "vendor", "manufacturer", "producer", default="Unknown"),
+            self._first_string(item, "tier", "fidelity", "fidelity_tier", default="external"),
+            self._first_string(item, "bus", "bus_type", "interface", default="unspecified"),
+            self._first_string(item, "class", "class_name", "renode_class", "renodeClass", default=""),
+            json.dumps(metadata, sort_keys=True),
+        )
 
     def component_stats(self) -> dict[str, Any]:
         with self.connect() as db:
