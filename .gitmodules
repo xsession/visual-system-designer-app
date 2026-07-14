@@ -1,3 +1,12 @@
 [submodule "externals/renode"]
 	path = externals/renode
 	url = https://github.com/xsession/renode.git
+[submodule "externals/openFPGALoader"]
+	path = externals/openFPGALoader
+	url = https://github.com/xsession/openFPGALoader.git
+[submodule "externals/open_microchip_tools"]
+	path = externals/open_microchip_tools
+	url = https://github.com/xsession/open_microchip_tools.git
+[submodule "externals/openocd"]
+	path = externals/openocd
+	url = https://github.com/xsession/openocd.git
